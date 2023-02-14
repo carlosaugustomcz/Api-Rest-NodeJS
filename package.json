@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "knex": "node --trace-warnings tsx ./node_modules/bin/knex",
+    "knex": "node --loader tsx ./node_modules/bin/knex",
     "lint": "eslint src --ext .ts --fix"
-    },
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
