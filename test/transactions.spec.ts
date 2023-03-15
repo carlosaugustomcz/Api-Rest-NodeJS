@@ -1,7 +1,7 @@
 import { afterAll, beforeAll, it, describe, expect, beforeEach } from "vitest";
 import { execSync } from "child_process";
 import request from 'supertest'
-import { app } from '../app'
+import { app } from '../src/app'
 
 describe('Transaction routes', () => {
 
