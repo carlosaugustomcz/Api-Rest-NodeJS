@@ -39,7 +39,7 @@ export async function transactionsRoutes(app: FastifyInstance){
         })
         .first()
 
-        return transaction
+        return { transaction }
     })
 
     app.get('/summary', async(request) => {
